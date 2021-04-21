@@ -1,0 +1,26 @@
+{
+    "name": "lubatti/training",
+    "description": "Training scripts",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lautarolubatti",
+            "email": "lr.lubatti@gmail.com"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "7.4"
+        }
+    },
+    "require": {
+        "psr/container": "^1.1",
+        "php-di/php-di": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/app/"
+        }
+    }
+}
